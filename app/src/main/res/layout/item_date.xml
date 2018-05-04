@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="47dp"
+    android:layout_height="60dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_date"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#2c2c2c"
+            android:textSize="19sp"
+            tools:text="19" />
+
+        <TextView
+            android:id="@+id/tv_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#b2b2b2"
+            android:textSize="12sp"
+            tools:text="十一" />
+    </LinearLayout>
+</LinearLayout>
